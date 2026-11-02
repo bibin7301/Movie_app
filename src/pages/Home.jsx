@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Card from '../components/Card'
 
 
-const API_KEY = "863e7ec9a7db93034c00e2feda9e6e8e"
+const API_KEY = import.meta.env.VITE_API_KEY 
 export default function Home() {
 
   const [posts,setPosts]=useState()

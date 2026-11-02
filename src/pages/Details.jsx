@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
-const API_KEY = "863e7ec9a7db93034c00e2feda9e6e8e";
+const API_KEY = import.meta.env.VITE_API_KEY 
 export default function Details() {
   const { id } = useParams();
   const [post, setPost] = useState();
