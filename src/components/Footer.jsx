@@ -32,11 +32,7 @@ export default function Footer() {
               </Link>
             </li>
 
-            <li>
-              <Link to="/Movies" className="hover:text-yellow-400 transition">
-                Movies
-              </Link>
-            </li>
+            
 
             <li>
               <Link to="/Shows" className="hover:text-yellow-400 transition">
@@ -66,7 +62,7 @@ export default function Footer() {
 
           <div className="space-y-3 text-gray-300 text-sm">
             <p>📧 support@moviehub.com</p>
-            <p>📞 +91 98765 43210</p>
+            <p>📞 +91 1234567890</p>
           </div>
 
           {/* Social Media */}

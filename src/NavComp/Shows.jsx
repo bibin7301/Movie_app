@@ -18,7 +18,7 @@ function Shows() {
   }, []);
 
   return (
-    <div className="p-6">
+    <div className="p-6 bg-linear-to-b from-slate-900 via-cyan-800 to-gray-800">
       <h1 className="text-3xl font-bold text-yellow-400 mb-8">
         Popular TV Shows
       </h1>
